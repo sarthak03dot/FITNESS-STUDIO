@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 import bcrypt from 'bcryptjs';
 import dotenv from 'dotenv';
 import path from 'path';
-import { fileURLToPath } from 'url';
+
 
 // Models
 import { UserModel, UserRole } from '../modules/users/user.model.js';
@@ -13,8 +13,8 @@ import WorkoutTemplate from '../modules/workouts/workout-template.model.js';
 import { WorkoutLogModel } from '../modules/workouts/workout.model.js';
 import { RatingModel } from '../modules/ratings/rating.model.js';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+
+const __dirname = path.resolve();
 
 dotenv.config({ path: path.join(__dirname, '../../.env') });
 
