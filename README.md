@@ -1,6 +1,10 @@
 # FITNESS STUDIO: Elite Performance & Tracking Platform
 
 A premium, full-stack application for fitness studios to manage classes, bookings, memberships, and track member progress with cinematic aesthetics and deep analytics.
+## Preview
+
+  <img width="1755" height="7059" alt="Image" src="https://github.com/user-attachments/assets/31da6d13-99f0-4eae-beb4-d6c0410695a4" />
+
 
 ## Features
 
