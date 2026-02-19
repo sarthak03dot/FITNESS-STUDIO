@@ -6,15 +6,12 @@
     "lib": [
       "ES2022"
     ],
-    "types": [
-      "node"
-    ], // REQUIRED for process, console, crypto, path, url
     "rootDir": "./src",
     "outDir": "./dist",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "skipLibCheck": true,
-    "strict": false, // avoid 200+ strict errors on Render
+    "strict": false,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
     "declaration": true,
